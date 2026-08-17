@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://bellwethercreamery.com/</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image>
+      <image:loc>https://bellwethercreamery.com/assets/menu/three-cones-strawberries-1200.webp</image:loc>
+      <image:title>Bellwether Creamery small batch ice cream</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bellwethercreamery.com/flavors.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <image:image>
+      <image:loc>https://bellwethercreamery.com/assets/menu/banana-split-1200.webp</image:loc>
+      <image:title>Ice cream flavors — pints, bars, sandwiches, dairy-free</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bellwethercreamery.com/locations.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <image:image>
+      <image:loc>https://bellwethercreamery.com/assets/contact/storefront-sunlight-1200.webp</image:loc>
+      <image:title>Bellwether Creamery scoop shop locations</image:title>
+    </image:image>
+  </url>
+  <url>
+    <loc>https://bellwethercreamery.com/story.html</loc>
+    <lastmod>2026-08-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <image:image>
+      <image:loc>https://bellwethercreamery.com/assets/vl/story/FOUNDER-PHOTO_1-1.webp</image:loc>
+      <image:title>Our story — how Bellwether Creamery started</image:title>
+    </image:image>
+  </url>
+</urlset>

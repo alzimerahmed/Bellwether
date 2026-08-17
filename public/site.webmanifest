@@ -1,0 +1,17 @@
+{
+  "name": "Bellwether Creamery",
+  "short_name": "Bellwether",
+  "description": "Slow-churned ice cream in small batches, with fruit and dairy from growers we know by name.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FBF4E6",
+  "theme_color": "#2C1810",
+  "icons": [
+    {
+      "src": "/favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any maskable"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+
+# QA artifacts
+qa/
+
+# Playwright / MCP
+.playwright-mcp/
+playwright-report/
+test-results/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Logs
+*.log
+npm-debug.log*
+
+# Downloaded images (scratch / working directory)
+downloaded-images/

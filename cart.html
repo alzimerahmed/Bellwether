@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart — Bellwether Creamery</title>
+  <meta name="description" content="Review your order. Free shipping over $60, packed with dry ice and shipped overnight.">
+  <link rel="canonical" href="https://bellwethercreamery.com/cart.html">
+  <meta name="robots" content="noindex, follow">
+  <meta name="author" content="Bellwether Creamery">
+
+  <meta property="og:title" content="Cart — Bellwether Creamery">
+  <meta property="og:description" content="Review your order. Free shipping over $60, packed with dry ice and shipped overnight.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://bellwethercreamery.com/cart.html">
+  <meta property="og:site_name" content="Bellwether Creamery">
+  <meta property="og:locale" content="en_US">
+
+  <meta name="twitter:card" content="summary">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400..700&family=Pacifico&family=Nunito:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+  <link rel="icon" type="image/svg+xml" href="/favicon.svg">
+  <link rel="apple-touch-icon" href="/favicon.svg">
+  <link rel="manifest" href="/site.webmanifest">
+  <meta name="theme-color" content="#2C1810">
+  <meta name="color-scheme" content="light">
+
+  <link rel="stylesheet" href="/src/styles.css">
+  <script type="module" src="/src/site-layout.js"></script>
+  <script type="module" src="/src/pages.js"></script>
+  <script type="module" src="/src/scroll-reveal.js"></script>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {
+        "@type": "ListItem",
+        "position": 1,
+        "name": "Home",
+        "item": "https://bellwethercreamery.com/"
+      },
+      {
+        "@type": "ListItem",
+        "position": 2,
+        "name": "Cart",
+        "item": "https://bellwethercreamery.com/cart.html"
+      }
+    ]
+  }
+  </script>
+</head>
+<body>
+  <a href="#main" class="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 focus:z-[70] focus:bg-cream focus:text-chocolate focus:px-4 focus:py-2 focus:rounded-md">
+    Skip to content
+  </a>
+
+  <div data-site-header></div>
+
+  <main id="main">
+    <header class="page-head page-head--sky">
+      <div class="shell max-w-2xl">
+        <p class="eyebrow mb-3 opacity-70">Almost there</p>
+        <h1 class="page-head__title">Your Cart</h1>
+      </div>
+    </header>
+
+    <section class="row-pad" aria-labelledby="cart-title" data-scroll="fade">
+      <div class="shell grid gap-12 lg:grid-cols-[1.6fr_1fr] items-start">
+        <div>
+          <h2 id="cart-title" class="sr-only">Items in your cart</h2>
+          <div data-cart-lines aria-live="polite">
+            <!-- rendered by src/pages.js -->
+          </div>
+        </div>
+
+        <aside class="card lg:sticky lg:top-28" data-cart-summary hidden aria-label="Order summary">
+          <!-- rendered by src/pages.js -->
+        </aside>
+      </div>
+    </section>
+
+    <section class="row-pad bg-cream" aria-labelledby="more-title" data-scroll="fade">
+      <div class="shell">
+        <div class="flex flex-wrap items-end justify-between gap-4 mb-10">
+          <h2 id="more-title" class="section-title">Add Something Else</h2>
+          <a href="/flavors.html" class="btn-outline px-5 py-2.5 rounded-full font-bold text-xs tracking-widest uppercase">All Flavors &rarr;</a>
+        </div>
+        <div class="product-grid" data-flavor-grid="pints" data-limit="4"></div>
+      </div>
+    </section>
+
+    <!-- Party Packs — curated bundles -->
+    <section class="row-pad" aria-labelledby="packs-title" data-scroll="fade">
+      <div class="shell">
+        <h2 id="packs-title" class="section-title mb-3">Party Packs</h2>
+        <p class="lede mb-10 max-w-xl text-pretty">
+          Feeding a crowd? These bundles ship overnight with dry ice — enough for eight to twelve scoopers.
+        </p>
+        <div class="pack-grid" data-pack-grid></div>
+      </div>
+    </section>
+
+    <section class="row-pad bg-cream" aria-labelledby="loot-title" data-scroll="fade">
+      <div class="shell">
+        <h2 id="loot-title" class="section-title mb-3">Van Loot</h2>
+        <p class="lede mb-10 max-w-xl text-pretty">
+          Shirts, caps, totes and the cookbook. Printed in short runs — restocked when they are gone.
+        </p>
+        <div class="merch-grid" data-merch-grid></div>
+      </div>
+    </section>
+
+    <section class="row-pad" aria-labelledby="gift-title" data-scroll="scale">
+      <div class="shell">
+        <div class="gift-banner" data-reveal="4">
+          <div class="gift-banner__media">
+            <img src="/assets/vl/merch/Gift-Card_Website-Image.webp" alt="Bellwether Creamery gift card" width="600" height="450" loading="lazy" decoding="async">
+          </div>
+          <div>
+            <p class="eyebrow text-berry mb-3">For someone else</p>
+            <h2 id="gift-title" class="section-title mb-4">Gift Cards</h2>
+            <p class="lede mb-6 text-pretty">
+              Digital gift cards, sent the same day. Good for pints, bars, sandwiches, merch and party packs — anything behind the counter or in the online shop.
+            </p>
+            <a href="#" class="btn-primary inline-block px-6 py-3 rounded-full font-bold text-xs tracking-widest uppercase">Buy A Gift Card</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="row-gradient py-16" aria-labelledby="ship-title">
+      <div class="shell max-w-2xl">
+        <h2 id="ship-title" class="section-title mb-4">How Shipping Works</h2>
+        <p class="lede text-pretty">
+          Orders are packed with dry ice and sent overnight, so they arrive solid. Free over $60,
+          otherwise a flat $8.50. Within eight miles of the Old Mill kitchen we deliver the same
+          afternoon instead.
+        </p>
+      </div>
+    </section>
+  </main>
+
+  <div data-site-footer></div>
+</body>
+</html>

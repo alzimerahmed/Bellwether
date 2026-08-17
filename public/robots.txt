@@ -1,0 +1,39 @@
+# Allow all AI crawlers (critical for GEO)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+# Standard search engines
+User-agent: *
+Allow: /
+Disallow: /cart.html
+Disallow: /search?
+Disallow: /*?filter=
+
+Sitemap: https://bellwethercreamery.com/sitemap.xml
