@@ -35,10 +35,10 @@ const HERO_TEXT = {
 // catalog image so the hero gets its own art direction without leaking onto the
 // flavors page.
 const HERO_IMAGES = {
-  'brown-butter-pecan': '/assets/hero/brown-butter-pecan.png',
-  'meyer-lemon-cream': '/assets/hero/meyer-lemon-cream.png',
-  'wild-blueberry-ripple': '/assets/hero/wild-blueberry-ripple.png',
-  'strawberry-rhubarb': '/assets/hero/strawberry-rhubarb.png',
+  'brown-butter-pecan': '/assets/hero/brown-butter-pecan.webp',
+  'meyer-lemon-cream': '/assets/hero/meyer-lemon-cream.webp',
+  'wild-blueberry-ripple': '/assets/hero/wild-blueberry-ripple.webp',
+  'strawberry-rhubarb': '/assets/hero/strawberry-rhubarb.webp',
 }
 
 const FEATURED = [
